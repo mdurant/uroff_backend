@@ -1,0 +1,1 @@
+<img src="{{url('/storage/logo.png')}}" alt="Logo Licrim" display="block" style="width: 40%;margin: 0 auto;" />
