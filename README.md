@@ -28,3 +28,13 @@ Por medio de netcode.cl, Licrim facilita el proceso de digitalización documenta
 ## Contribución
 
 Desarrollado por: Mauricio Durán Torres.
+
+## Implementación
+
+1) clone repo github
+2) cd "clone repo"
+3) composer install
+4) npm install
+5) npm run dev
+6) php artisan key:generate
+7) edit you "env" for dev.
