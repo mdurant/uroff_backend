@@ -37,4 +37,6 @@ Desarrollado por: Mauricio Durán Torres.
 4) npm install
 5) npm run dev
 6) php artisan key:generate
-7) edit you "env" for dev.
+7) edit you "env" for dev. (database, log, name, email, etc)
+8) php artisan migrate
+9) php artisan serve
