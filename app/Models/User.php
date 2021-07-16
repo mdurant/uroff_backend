@@ -18,11 +18,12 @@ class User extends Authenticatable implements MustVerifyEmail
     use Notifiable;
     use TwoFactorAuthenticatable;
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
+
+    public function evidences(){
+        return $this->hasMany('App\Models\Evidence');
+    }
+
+
     protected $fillable = [
         'name',
         'email',
