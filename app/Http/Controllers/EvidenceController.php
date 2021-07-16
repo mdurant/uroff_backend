@@ -14,9 +14,9 @@ class EvidenceController extends Controller
      */
     public function index()
     {
-        $evidences = Evidence::all();
+        $evidence = Evidence::all();
 
-        return  view('evidencias.index', compact('evidences'));
+        return  view('evidencias.index', compact('evidence'));
     }
 
     /**

@@ -13,7 +13,7 @@ class AddForeingKeyToUsers extends Migration
      */
     public function up()
     {
-        Schema::table('evidences', function (Blueprint $table) {
+        Schema::table('evidence', function (Blueprint $table) {
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')
                 ->unique()
@@ -31,7 +31,7 @@ class AddForeingKeyToUsers extends Migration
      */
     public function down()
     {
-        Schema::table('evidences', function (Blueprint $table) {
+        Schema::table('evidence', function (Blueprint $table) {
             //
         });
     }
