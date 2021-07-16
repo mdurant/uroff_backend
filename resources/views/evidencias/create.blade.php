@@ -1,95 +1,279 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Lista Evidencias') }}
+            {{ __('Crear evidencias') }}
         </h2>
     </x-slot>
-
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <!-- This example requires Tailwind CSS v2.0+ -->
-            <div class="block mb-8">
-                <a href="{{route('evidencias.create')}}" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                    Crear Evidencia
-                </a>
+    <div>
+        <div class="md:grid md:grid-cols-3 md:gap-6">
+            <div class="md:col-span-1">
+                <div class="px-4 sm:px-0">
+                    <h3 class="text-lg font-medium leading-6 text-gray-900">Antecedentes</h3>
+                    <p class="mt-1 text-sm text-gray-600">
+                        En esta sección se requieren antecedentes para ingresar al repositorio centralizado..
+                    </p>
+                </div>
             </div>
-            <div class="flex flex-col">
-                <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-                    <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-                        <form class="w-full max-w-lg">
-                            <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-                                        First Name
+            <div class="mt-5 md:mt-0 md:col-span-2">
+                <form action="#" method="POST">
+                    <div class="shadow sm:rounded-md sm:overflow-hidden">
+                        <div class="px-4 py-5 bg-white space-y-6 sm:p-6">
+                            <div class="grid grid-cols-3 gap-6">
+                                <div class="col-span-3 sm:col-span-2">
+                                    <label for="company-website" class="block text-sm font-medium text-gray-700">
+                                        Archivo
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
-                                    <p class="text-red-500 text-xs italic">Please fill out this field.</p>
-                                </div>
-                                <div class="w-full md:w-1/2 px-3">
-                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-                                        Last Name
-                                    </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
-                                </div>
-                            </div>
-                            <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full px-3">
-                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-                                        Password
-                                    </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="******************">
-                                    <p class="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
-                                </div>
-                            </div>
-                            <div class="flex flex-wrap -mx-3 mb-2">
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
-                                        City
-                                    </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="Albuquerque">
-                                </div>
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
-                                        State
-                                    </label>
-                                    <div class="relative">
-                                        <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                                            <option>New Mexico</option>
-                                            <option>Missouri</option>
-                                            <option>Texas</option>
-                                        </select>
-                                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                                    <div class="py-20 h-screen bg-gray-300 px-2">
+                                        <div class="max-w-md mx-auto bg-white rounded-lg overflow-hidden md:max-w-lg">
+                                            <div class="md:flex">
+                                                <div class="w-full">
+                                                    <div class="p-4 border-b-2"> <span class="text-lg font-bold text-gray-600">Add documents</span> </div>
+                                                    <div class="p-3">
+                                                        <div class="mb-2"> <span class="text-sm">Title</span> <input type="text" class="h-12 px-3 w-full border-gray-200 border rounded focus:outline-none focus:border-gray-300"> </div>
+                                                        <div class="mb-2"> <span>Attachments</span>
+                                                            <div class="relative h-40 rounded-lg border-dashed border-2 border-gray-200 bg-white flex justify-center items-center hover:cursor-pointer">
+                                                                <div class="absolute">
+                                                                    <div class="flex flex-col items-center "> <i class="fa fa-cloud-upload fa-3x text-gray-200"></i> <span class="block text-gray-400 font-normal">Attach you files here</span> <span class="block text-gray-400 font-normal">or</span> <span class="block text-blue-400 font-normal">Browse files</span> </div>
+                                                                </div> <input type="file" class="h-full w-full opacity-0" name="">
+                                                            </div>
+                                                            <div class="flex justify-between items-center text-gray-400"> <span>Accepted file type:.doc only</span> <span class="flex items-center "><i class="fa fa-lock mr-1"></i> secure</span> </div>
+                                                        </div>
+                                                        <div class="mt-3 text-center pb-3"> <button class="w-full h-12 text-lg w-32 bg-blue-600 rounded text-white hover:bg-blue-700">Create</button> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-zip">
-                                        Zip
-                                    </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="text" placeholder="90210">
+                            </div>
+
+                            <div>
+                                <label for="about" class="block text-sm font-medium text-gray-700">
+                                    About
+                                </label>
+                                <div class="mt-1">
+                                    <textarea id="about" name="about" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="you@example.com"></textarea>
+                                </div>
+                                <p class="mt-2 text-sm text-gray-500">
+                                    Brief description for your profile. URLs are hyperlinked.
+                                </p>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700">
+                                    Photo
+                                </label>
+                                <div class="mt-1 flex items-center">
+                <span class="inline-block h-12 w-12 rounded-full overflow-hidden bg-gray-100">
+                  <svg class="h-full w-full text-gray-300" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
+                  </svg>
+                </span>
+                                    <button type="button" class="ml-5 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                        Change
+                                    </button>
                                 </div>
                             </div>
-                        </form>
-                        Underline Form
-                        Jane Doe
-                        Sign Up
-                        Cancel
-                        <form class="w-full max-w-sm">
-                            <div class="flex items-center border-b border-teal-500 py-2">
-                                <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Jane Doe" aria-label="Full name">
-                                <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
-                                    Sign Up
-                                </button>
-                                <button class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded" type="button">
-                                    Cancel
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
 
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700">
+                                    Cover photo
+                                </label>
+                                <div class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
+                                    <div class="space-y-1 text-center">
+                                        <svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
+                                            <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <div class="flex text-sm text-gray-600">
+                                            <label for="file-upload" class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
+                                                <span>Upload a file</span>
+                                                <input id="file-upload" name="file-upload" type="file" class="sr-only">
+                                            </label>
+                                            <p class="pl-1">or drag and drop</p>
+                                        </div>
+                                        <p class="text-xs text-gray-500">
+                                            PNG, JPG, GIF up to 10MB
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
+                            <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                Save
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
+
+    <div class="hidden sm:block" aria-hidden="true">
+        <div class="py-5">
+            <div class="border-t border-gray-200"></div>
+        </div>
+    </div>
+
+    <div class="mt-10 sm:mt-0">
+        <div class="md:grid md:grid-cols-3 md:gap-6">
+            <div class="md:col-span-1">
+                <div class="px-4 sm:px-0">
+                    <h3 class="text-lg font-medium leading-6 text-gray-900">Personal Information</h3>
+                    <p class="mt-1 text-sm text-gray-600">
+                        Use a permanent address where you can receive mail.
+                    </p>
+                </div>
+            </div>
+            <div class="mt-5 md:mt-0 md:col-span-2">
+                <form action="#" method="POST">
+                    <div class="shadow overflow-hidden sm:rounded-md">
+                        <div class="px-4 py-5 bg-white sm:p-6">
+                            <div class="grid grid-cols-6 gap-6">
+                                <div class="col-span-6 sm:col-span-3">
+                                    <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
+                                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                </div>
+
+                                <div class="col-span-6 sm:col-span-3">
+                                    <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
+                                    <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                </div>
+
+                                <div class="col-span-6 sm:col-span-4">
+                                    <label for="email-address" class="block text-sm font-medium text-gray-700">Email address</label>
+                                    <input type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                </div>
+
+                                <div class="col-span-6 sm:col-span-3">
+                                    <label for="country" class="block text-sm font-medium text-gray-700">Country / Region</label>
+                                    <select id="country" name="country" autocomplete="country" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                                        <option>United States</option>
+                                        <option>Canada</option>
+                                        <option>Mexico</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-span-6">
+                                    <label for="street-address" class="block text-sm font-medium text-gray-700">Street address</label>
+                                    <input type="text" name="street-address" id="street-address" autocomplete="street-address" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                </div>
+
+                                <div class="col-span-6 sm:col-span-6 lg:col-span-2">
+                                    <label for="city" class="block text-sm font-medium text-gray-700">City</label>
+                                    <input type="text" name="city" id="city" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                </div>
+
+                                <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+                                    <label for="state" class="block text-sm font-medium text-gray-700">State / Province</label>
+                                    <input type="text" name="state" id="state" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                </div>
+
+                                <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+                                    <label for="postal-code" class="block text-sm font-medium text-gray-700">ZIP / Postal</label>
+                                    <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
+                            <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                Save
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="hidden sm:block" aria-hidden="true">
+        <div class="py-5">
+            <div class="border-t border-gray-200"></div>
+        </div>
+    </div>
+
+    <div class="mt-10 sm:mt-0">
+        <div class="md:grid md:grid-cols-3 md:gap-6">
+            <div class="md:col-span-1">
+                <div class="px-4 sm:px-0">
+                    <h3 class="text-lg font-medium leading-6 text-gray-900">Notifications</h3>
+                    <p class="mt-1 text-sm text-gray-600">
+                        Decide which communications you'd like to receive and how.
+                    </p>
+                </div>
+            </div>
+            <div class="mt-5 md:mt-0 md:col-span-2">
+                <form action="#" method="POST">
+                    <div class="shadow overflow-hidden sm:rounded-md">
+                        <div class="px-4 py-5 bg-white space-y-6 sm:p-6">
+                            <fieldset>
+                                <legend class="text-base font-medium text-gray-900">By Email</legend>
+                                <div class="mt-4 space-y-4">
+                                    <div class="flex items-start">
+                                        <div class="flex items-center h-5">
+                                            <input id="comments" name="comments" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+                                        </div>
+                                        <div class="ml-3 text-sm">
+                                            <label for="comments" class="font-medium text-gray-700">Comments</label>
+                                            <p class="text-gray-500">Get notified when someones posts a comment on a posting.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="flex items-center h-5">
+                                            <input id="candidates" name="candidates" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+                                        </div>
+                                        <div class="ml-3 text-sm">
+                                            <label for="candidates" class="font-medium text-gray-700">Candidates</label>
+                                            <p class="text-gray-500">Get notified when a candidate applies for a job.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="flex items-center h-5">
+                                            <input id="offers" name="offers" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+                                        </div>
+                                        <div class="ml-3 text-sm">
+                                            <label for="offers" class="font-medium text-gray-700">Offers</label>
+                                            <p class="text-gray-500">Get notified when a candidate accepts or rejects an offer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <div>
+                                    <legend class="text-base font-medium text-gray-900">Push Notifications</legend>
+                                    <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.</p>
+                                </div>
+                                <div class="mt-4 space-y-4">
+                                    <div class="flex items-center">
+                                        <input id="push-everything" name="push-notifications" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                                        <label for="push-everything" class="ml-3 block text-sm font-medium text-gray-700">
+                                            Everything
+                                        </label>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <input id="push-email" name="push-notifications" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                                        <label for="push-email" class="ml-3 block text-sm font-medium text-gray-700">
+                                            Same as email
+                                        </label>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <input id="push-nothing" name="push-notifications" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                                        <label for="push-nothing" class="ml-3 block text-sm font-medium text-gray-700">
+                                            No push notifications
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
+                            <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                Save
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
 </x-app-layout>
