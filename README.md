@@ -1,3 +1,4 @@
+<div id="backgroud" style="background-color: #0a1520">
 <p align="center"><a href="https://www.licrim.com" target="_blank"><img src="http://www.criminalistica.cl/imagenes/logoblanco.png" width="400"></a></p>
 
 <p align="center">
@@ -6,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-
+</div>
 ## About Licrim
 
 Licrim, es un centro de excelencia en la ciencia Forense, este sistema permitirá a peritos subir evidencia y documentar digitalmente el proceso de los casos investigados, el
