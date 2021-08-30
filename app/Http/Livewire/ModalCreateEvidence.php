@@ -3,6 +3,7 @@
 namespace App\Http\Livewire;
 
 use App\Models\Evidence;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use Livewire\Component;
 
@@ -26,6 +27,11 @@ class ModalCreateEvidence extends Component
 
 
     public function save(){
+        //$nameFile = $this->file->getClientOriginalName();
+        //$user = Auth::user()->name;
+        //$fecha = Carbon::now()->format('d-m-YH-i-s');
+        //$clearUser = str_replace(' ', '', $user);
+        //dd($fecha . "-" . $nameFile);
         //$fileExtension=$this->file->getClientOriginalExtension();
         // dd($this->file);
         // dd($fileExtension);
