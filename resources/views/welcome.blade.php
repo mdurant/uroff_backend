@@ -38,7 +38,7 @@
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <img src="{{url('/storage/logo.png')}}" alt="Logo Licrim" display="block" style="width: 15%;margin: 0 auto;" />
+                    <img src="{{url('/storage/logo.png')}}" alt="Logo Uroff" display="block" style="width: 15%;margin: 0 auto;" />
                 </div>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
@@ -46,17 +46,7 @@
                         <div class="p-6">
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    LICRIM Ltda. dispone de un sistema de gestión de evidencias Forenses que permite al Perito subir en esta plataforma la evidecia necesaria para  confeccionar una gran Base de Datos de Evidencia en los casos estudiados.<br>
-                                    <br> Con Ello mejoramos los procesos digitales y canales propios de tratamiento de la información.
-                                    <br> <br>
-                                    Puede ingresar en la sección superior en el enlace "Ingreso".
-                                    <br><br>
-                                    Dudas o consultas : <br>
-                                    LICRIM Ltda.<br>
-                                    Dirección: Calle Morande 322 oficina 402 <br>
-                                    Santiago, Chile. <br>
-                                    Celular: (+56) 9 82309355 <br>
-                                    Email: contacto@licrim.com
+                                    Con Uroff eres libre de trabajar donde quieras, por el tiempo que quieras y pagas solo lo que usas.<br>
 
                                 </div>
                             </div>
@@ -67,8 +57,8 @@
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 sm:text-left">
                         <div class="flex items-center">
-                            <a href="https://www.netcode.cl" class="ml-1 underline">
-                                Desarrollos: Netcode Chile
+                            <a href="https://www.uroff.net" class="ml-1 underline">
+                                Uroff.net
                             </a>
                         </div>
                     </div>

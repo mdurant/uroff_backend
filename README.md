@@ -43,3 +43,4 @@ Desarrollado por: Mauricio Durán Torres.
 9) php artisan serve
 10) php artisan storage:link
 11) Dejar imagenes dentro de storage para logos y multimedia.
+"# uroff_backend" 

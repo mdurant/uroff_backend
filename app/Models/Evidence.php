@@ -9,8 +9,18 @@ class Evidence extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'file',
+    ];
 
     public function user(){
         return $this->belongsTo('App\Models\User');
     }
+
+    protected $hidden = [
+
+    ];
+
+    protected $table = 'evidence';
+
 }

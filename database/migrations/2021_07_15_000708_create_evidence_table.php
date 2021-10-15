@@ -28,7 +28,7 @@ class CreateEvidenceTable extends Migration
             $table->text('name_expert');
             $table->text('crime_address');
             $table->text('description');
-            $table->string('photo');
+            $table->string('file');
             $table->timestamps();
         });
     }

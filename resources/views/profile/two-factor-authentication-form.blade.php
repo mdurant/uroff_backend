@@ -1,6 +1,6 @@
 <x-jet-action-section>
     <x-slot name="title">
-        {{ __('2FA - Licrim') }}
+        {{ __('2FA - Uroff') }}
     </x-slot>
 
     <x-slot name="description">

@@ -1,13 +1,14 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <img src="{{url('/storage/logo.png')}}" alt="Logo Licrim" style="width: 130px" />
+            <img src="{{url('/storage/logo.png')}}" alt="Logo UROFF" style="width: 200px; height:178px;  margin: 0 auto;" />
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
-            {{ __('Gracias por registrarte.\n' .'Antes de empezar, ¿podrías verificar tu dirección de correo electrónico haciendo clic en el enlace que acabamos de enviarte? Si no has recibido el correo electrónico, te enviaremos otro con mucho gusto.') }}
+            {{ __('Gracias por registrarte.'
+            .'Te hemos enviado un correo para que actives tu cuenta!') }}
         <br><br>
-            {{('Equipo Licrim.')}}
+            {{('Equipo Uroff.')}}
         </div>
 
         @if (session('status') == 'verification-link-sent')
@@ -22,7 +23,7 @@
 
                 <div>
                     <x-jet-button type="submit">
-                        {{ __('Reenviar el correo de verificación') }}
+                        {{ __('Reenviar el E-MAIL') }}
                     </x-jet-button>
                 </div>
             </form>

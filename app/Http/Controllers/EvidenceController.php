@@ -24,9 +24,17 @@ class EvidenceController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    protected  function create(Request $request)
     {
-        return  view('evidencias.create');
+
+        return Evidence::create([
+            //   $archivo = $request->file('photos');
+         //   $fileExtension=$archivo->getClientOriginalExtension();
+
+            'file' => $request['file'],
+        ]);
+
+        //return  view('evidencias.create');
     }
 
     /**
@@ -38,6 +46,7 @@ class EvidenceController extends Controller
     public function store(Request $request)
     {
         //
+        return $request;
     }
 
     /**

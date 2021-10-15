@@ -11,6 +11,8 @@ use Carbon\Carbon;
 use Livewire\WithFileUploads;
 use Illuminate\Support\Facades\Hash;
 
+use Intervention\Image\ImageManagerStatic as Image;
+
 
 class ModalCreateEvidence extends Component
 {
@@ -37,6 +39,24 @@ class ModalCreateEvidence extends Component
         // dd($fileExtension);
         // $codigo = Hash::make(Str::random(15));
        // dd($codigo);
+        // metadata
+        //$archivo = [];
+        $archivo = $this->file;
+        $img = Image::make($archivo)->exif();
+
+        $vars = array($img);
+        //for ($i=0; $i < count($img); $i++){
+        //    $img[$i][0];
+        // }
+        // trabajar for con var_export()
+        // COMPUTED, THUMBNAIL,  UndefinedTag, GPSLatitude, GPSLongitude
+        foreach ($vars['COMPUTED']['THUMBNAIL']['GPSLatitude']['GPSLongitude'] as $atributo => $valor) {
+            echo '<p>', htmlspecialchars($atributo . ' => ' . $valor), '</p>', PHP_EOL;
+        }
+
+
+
+       dd($img);
 
     }
 

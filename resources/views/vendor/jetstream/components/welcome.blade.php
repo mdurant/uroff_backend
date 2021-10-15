@@ -8,7 +8,7 @@
     </div>
 
     <div class="mt-6 text-gray-500">
-       Dispone de una plataforma web que permite gstionar de  mejor forma evidencia en los procesos judiciales y particulares determinados.
+       Tú dispones de de una plataforma web que permite gestionar de  mejor forma tus UROFF en la Red.
     </div>
 </div>
 
