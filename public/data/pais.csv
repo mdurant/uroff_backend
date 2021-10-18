@@ -1,0 +1,241 @@
+﻿id;alfa_2;nombre;iso_num;alfa_3;estado
+1;AD;Andorra;20;AND;0
+2;AE;Emiratos Árabes Unidos;784;ARE;0
+3;AF;Afganistán;4;AFG;0
+4;AG;Antigua y Barbuda;28;ATG;0
+5;AI;Anguila;660;AIA;0
+6;AL;Albania;8;ALB;0
+7;AM;Armenia;51;ARM;0
+8;AN;Antillas Neerlandesas;530;ANT;0
+9;AO;Angola;24;AGO;0
+10;AQ;Antártida;10;ATA;0
+11;AR;Argentina;32;ARG;0
+12;AS;Samoa Americana;16;ASM;0
+13;AT;Austria;40;AUT;0
+14;AU;Australia;36;AUS;0
+15;AW;Aruba;533;ABW;0
+16;AX;Islas Áland;248;ALA;0
+17;AZ;Azerbaiyán;31;AZE;0
+18;BA;Bosnia y Herzegovina;70;BIH;0
+19;BB;Barbados;52;BRB;0
+20;BD;Bangladesh;50;BGD;0
+21;BE;Bélgica;56;BEL;0
+22;BF;Burkina Faso;854;BFA;0
+23;BG;Bulgaria;100;BGR;0
+24;BH;Bahréin;48;BHR;0
+25;BI;Burundi;108;BDI;0
+26;BJ;Benin;204;BEN;0
+27;BL;San Bartolomé;652;BLM;0
+28;BM;Bermudas;60;BMU;0
+29;BN;Brunéi;96;BRN;0
+30;BO;Bolivia;68;BOL;0
+31;BR;Brasil;76;BRA;0
+32;BS;Bahamas;44;BHS;0
+33;BT;Bhután;64;BTN;0
+34;BV;Isla Bouvet;74;BVT;0
+35;BW;Botsuana;72;BWA;0
+36;BY;Belarús;112;BLR;0
+37;BZ;Belice;84;BLZ;0
+38;CA;Canadá;124;CAN;0
+39;CC;Islas Cocos;166;CCK;0
+40;CF;República Centro-Africana;140;CAF;0
+41;CG;Congo;178;COG;0
+42;CH;Suiza;756;CHE;0
+43;CI;Costa de Marfil;384;CIV;0
+44;CK;Islas Cook;184;COK;0
+45;CL;Chile;152;CHL;0
+46;CM;Camerún;120;CMR;0
+47;CN;China;156;CHN;0
+48;CO;Colombia;170;COL;0
+49;CR;Costa Rica;188;CRI;0
+50;CU;Cuba;192;CUB;0
+51;CV;Cabo Verde;132;CPV;0
+52;CX;Islas Christmas;162;CXR;0
+53;CY;Chipre;196;CYP;0
+54;CZ;República Checa;203;CZE;0
+55;DE;Alemania;276;DEU;0
+56;DJ;Yibuti;262;DJI;0
+57;DK;Dinamarca;208;DNK;0
+58;DM;Domínica;212;DMA;0
+59;DO;República Dominicana;214;DOM;0
+60;DZ;Argel;12;DZA;0
+61;EC;Ecuador;218;ECU;0
+62;EE;Estonia;233;EST;0
+63;EG;Egipto;818;EGY;0
+64;EH;Sahara Occidental;732;ESH;0
+65;ER;Eritrea;232;ERI;0
+66;ES;España;724;ESP;0
+67;ET;Etiopía;231;ETH;0
+68;FI;Finlandia;246;FIN;0
+69;FJ;Fiji;242;FJI;0
+70;FK;Islas Malvinas;238;KLK;0
+71;FM;Micronesia;583;FSM;0
+72;FO;Islas Faroe;234;FRO;0
+73;FR;Francia;250;FRA;0
+74;GA;Gabón;266;GAB;0
+75;GB;Reino Unido;826;GBR;0
+76;GD;Granada;308;GRD;0
+77;GE;Georgia;268;GEO;0
+78;GF;Guayana Francesa;254;GUF;0
+79;GG;Guernsey;831;GGY;0
+80;GH;Ghana;288;GHA;0
+81;GI;Gibraltar;292;GIB;0
+82;GL;Groenlandia;304;GRL;0
+83;GM;Gambia;270;GMB;0
+84;GN;Guinea;324;GIN;0
+85;GP;Guadalupe;312;GLP;0
+86;GQ;Guinea Ecuatorial;226;GNQ;0
+87;GR;Grecia;300;GRC;0
+88;GS;Georgia del Sur e Islas Sandwich del Sur;239;SGS;0
+89;GT;Guatemala;320;GTM;0
+90;GU;Guam;316;GUM;0
+91;GW;Guinea-Bissau;624;GNB;0
+92;GY;Guayana;328;GUY;0
+93;HK;Hong Kong;344;HKG;0
+94;HM;Islas Heard y McDonald;334;HMD;0
+95;HN;Honduras;340;HND;0
+96;HR;Croacia;191;HRV;0
+97;HT;Haití;332;HTI;0
+98;HU;Hungría;348;HUN;0
+99;ID;Indonesia;360;IDN;0
+100;IE;Irlanda;372;IRL;0
+101;IL;Israel;376;ISR;0
+102;IM;Isla de Man;833;IMN;0
+103;IN;India;356;IND;0
+104;IO;Territorio Británico del Océano Índico;86;IOT;0
+105;IQ;Irak;368;IRQ;0
+106;IR;Irán;364;IRN;0
+107;IS;Islandia;352;ISL;0
+108;IT;Italia;380;ITA;0
+109;JE;Jersey;832;JEY;0
+110;JM;Jamaica;388;JAM;0
+111;JO;Jordania;400;JOR;0
+112;JP;Japón;392;JPN;0
+113;KE;Kenia;404;KEN;0
+114;KG;Kirguistán;417;KGZ;0
+115;KH;Camboya;116;KHM;0
+116;KI;Kiribati;296;KIR;0
+117;KM;Comoros;174;COM;0
+118;KN;San Cristóbal y Nieves;659;KNA;0
+119;KP;Corea del Norte;408;PRK;0
+120;KR;Corea del Sur;410;KOR;0
+121;KW;Kuwait;414;KWT;0
+122;KY;Islas Caimán;136;CYM;0
+123;KZ;Kazajstán;398;KAZ;0
+124;LA;Laos;418;LAO;0
+125;LB;Líbano;422;LBN;0
+126;LC;Santa Lucía;662;LCA;0
+127;LI;Liechtenstein;438;LIE;0
+128;LK;Sri Lanka;144;LKA;0
+129;LR;Liberia;430;LBR;0
+130;LS;Lesotho;426;LSO;0
+131;LT;Lituania;440;LTU;0
+132;LU;Luxemburgo;442;LUX;0
+133;LV;Letonia;428;LVA;0
+134;LY;Libia;434;LBY;0
+135;MA;Marruecos;504;MAR;0
+136;MC;Mónaco;492;MCO;0
+137;MD;Moldova;498;MDA;0
+138;ME;Montenegro;499;MNE;0
+139;MG;Madagascar;450;MDG;0
+140;MH;Islas Marshall;584;MHL;0
+141;MK;Macedonia;807;MKD;0
+142;ML;Mali;466;MLI;0
+143;MM;Myanmar;104;MMR;0
+144;MN;Mongolia;496;MNG;0
+145;MO;Macao;446;MAC;0
+146;MQ;Martinica;474;MTQ;0
+147;MR;Mauritania;478;MRT;0
+148;MS;Montserrat;500;MSR;0
+149;MT;Malta;470;MLT;0
+150;MU;Mauricio;480;MUS;0
+151;MV;Maldivas;462;MDV;0
+152;MW;Malawi;454;MWI;0
+153;MX;México;484;MEX;0
+154;MY;Malasia;458;MYS;0
+155;MZ;Mozambique;508;MOZ;0
+156;NA;Namibia;516;NAM;0
+157;NC;Nueva Caledonia;540;NCL;0
+158;NE;Níger;562;NER;0
+159;NF;Islas Norkfolk;574;NFK;0
+160;NG;Nigeria;566;NGA;0
+161;NI;Nicaragua;558;NIC;0
+162;NL;Países Bajos;528;NLD;0
+163;NO;Noruega;578;NOR;0
+164;NP;Nepal;524;NPL;0
+165;NR;Nauru;520;NRU;0
+166;NU;Niue;570;NIU;0
+167;NZ;Nueva Zelanda;554;NZL;0
+168;OM;Omán;512;OMN;0
+169;PA;Panamá;591;PAN;0
+170;PE;Perú;604;PER;0
+171;PF;Polinesia Francesa;258;PYF;0
+172;PG;Papúa Nueva Guinea;598;PNG;0
+173;PH;Filipinas;608;PHL;0
+174;PK;Pakistán;586;PAK;0
+175;PL;Polonia;616;POL;0
+176;PM;San Pedro y Miquelón;666;SPM;0
+177;PN;Islas Pitcairn;612;PCN;0
+178;PR;Puerto Rico;630;PRI;0
+179;PS;Palestina;275;PSE;0
+180;PT;Portugal;620;PRT;0
+181;PW;Islas Palaos;585;PLW;0
+182;PY;Paraguay;600;PRY;0
+183;QA;Qatar;634;QAT;0
+184;RE;Reunión;638;REU;0
+185;RO;Rumanía;642;ROU;0
+186;RS;Serbia y Montenegro;688;SRB;0
+187;RU;Rusia;643;RUS;0
+188;RW;Ruanda;646;RWA;0
+189;SA;Arabia Saudita;682;SAU;0
+190;SB;Islas Solomón;90;SLB;0
+191;SC;Seychelles;690;SYC;0
+192;SD;Sudán;736;SDN;0
+193;SE;Suecia;752;SWE;0
+194;SG;Singapur;702;SGP;0
+195;SH;Santa Elena;654;SHN;0
+196;SI;Eslovenia;705;SVN;0
+197;SJ;Islas Svalbard y Jan Mayen;744;SJM;0
+198;SK;Eslovaquia;703;SVK;0
+199;SL;Sierra Leona;694;SLE;0
+200;SM;San Marino;674;SMR;0
+201;SN;Senegal;686;SEN;0
+202;SO;Somalia;706;SOM;0
+203;SR;Surinam;740;SUR;0
+204;ST;Santo Tomé y Príncipe;678;STP;0
+205;SV;El Salvador;222;SLV;0
+206;SY;Siria;760;SYR;0
+207;SZ;Suazilandia;748;SWZ;0
+208;TC;Islas Turcas y Caicos;796;TCA;0
+209;TD;Chad;148;TCD;0
+210;TF;Territorios Australes Franceses;260;ATF;0
+211;TG;Togo;768;TGO;0
+212;TH;Tailandia;764;THA;0
+213;TH;Tanzania;834;TZA;0
+214;TJ;Tayikistán;762;TJK;0
+215;TK;Tokelau;772;TKL;0
+216;TL;Timor-Leste;626;TLS;0
+217;TM;Turkmenistán;795;TKM;0
+218;TN;Túnez;788;TUN;0
+219;TO;Tonga;776;TON;0
+220;TR;Turquía;792;TUR;0
+221;TT;Trinidad y Tobago;780;TTO;0
+222;TV;Tuvalu;798;TUV;0
+223;TW;Taiwán;158;TWN;0
+224;UA;Ucrania;804;UKR;0
+225;UG;Uganda;800;UGA;0
+226;US;Estados Unidos de América;840;USA;0
+227;UY;Uruguay;858;URY;0
+228;UZ;Uzbekistán;860;UZB;0
+229;VA;Ciudad del Vaticano;336;VAT;0
+230;VC;San Vicente y las Granadinas;670;VCT;0
+231;VE;Venezuela;862;VEN;0
+232;VG;Islas Vírgenes Británicas;92;VGB;0
+233;VI;Islas Vírgenes de los Estados Unidos de América;850;VIR;0
+234;VN;Vietnam;704;VNM;0
+235;VU;Vanuatu;548;VUT;0
+236;WF;Wallis y Futuna;876;WLF;0
+237;WS;Samoa;882;WSM;0
+238;YE;Yemen;887;YEM;0
+239;YT;Mayotte;175;MYT;0
+240;ZA;Sudáfrica;710;ZAF;0

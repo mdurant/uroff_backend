@@ -1,0 +1,5 @@
+﻿id;pais_id;nombre;razon_social;rut;url;estado
+1;45;Universidad de los Andes;Universidad de los Andes;71.614.000-8;https://uroff-public.s3.amazonaws.com/ALIANZAS/Universidad+de+los+Andes/marca_principal.jpg;0
+2;45;Fintechile;Asociación de Empresas de Innovación financiera de Chile A.;65.158.584-8;https://uroff-public.s3.amazonaws.com/ALIANZAS/Fintechile/marca_principal.jpg;0
+3;45;I2B Technologies;I2B Technologies S.A.;96.922.360-0;https://uroff-public.s3.amazonaws.com/ALIANZAS/I2B+Technologies/i2b2.png;0
+4;45;EmprendeTube;Alpha Consulting S.P.A.;76.051.847-6;https://uroff-public.s3.amazonaws.com/ALIANZAS/EmprendeTube/logos-01.png;0

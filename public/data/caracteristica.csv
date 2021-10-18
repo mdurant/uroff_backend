@@ -1,0 +1,47 @@
+﻿id;nombre;categoria_id
+1;Wifi;6
+2;Impresora;4
+3;Punto de Red;4
+4;Cafetería;1
+5;Aire Acondicionado;3
+6;Estacionamiento;5
+7;Scanner;4
+8;Terraza;7
+9;Kitchenette;1
+10;Recepcionista;6
+11;Bicicletero;5
+12;Cabinas Telefónicas;7
+13;Parrilla;7
+14;Seguridad;6
+15;Pantalla;4
+16;Computador;4
+17;Lockers;6
+18;Calefacción;3
+19;Dirección Comercial y Tributaria;6
+20;Videoconferencia;4
+21;Kids Zone;6
+22;Mesa Ping-Pong;2
+23;Habitaciones en Suite;6
+24;Agua Purificada;1
+25;Refrigerador;1
+26;Microondas;1
+27;Salón de Juegos;2
+28;Baño Privado;4
+29;Camarín;2
+30;Duchas;2
+31;Televisor;4
+32;Frigobar;1
+33;Fono Llamdas Locales;6
+34;Hervidor Eléctrico;1
+35;Gimnasio;2
+36;Piscina;2
+37;Area de Descanso;2
+38;Fotocopiadora;4
+39;Mensajería;6
+40;Computador;4
+41;Lounge;7
+42;Correspondencia;6
+43;Secretaria;6
+44;Dispensador de Agua;1
+45;Telefonía IP;6
+46;Patio;7

@@ -30,7 +30,7 @@
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
+                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Registro Partner</a>
                         @endif
                     @endauth
                 </div>
@@ -61,14 +61,11 @@
                                 Uroff.net
                             </a>
 
-                            <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                                Sistema v{{ env('APP_VERSION') }}
-                            </div>
                         </div>
                     </div>
 
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+                        Sistema v{{ env('APP_VERSION') }}
                     </div>
                 </div>
             </div>
