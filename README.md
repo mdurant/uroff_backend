@@ -1,5 +1,5 @@
 <div id="backgroud" style="background-color: #0a1520">
-<p align="center"><a href="https://www.licrim.com" target="_blank"><img src="http://www.criminalistica.cl/imagenes/logoblanco.png" width="400"></a></p>
+<p align="center"><a href="https://www.uroff.net" target="_blank"><img src="https://www.uroff.net/images/logo-uroff-social.png" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -8,27 +8,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 </div>
-## About Licrim
+## About UROFF
 
-Licrim, es un centro de excelencia en la ciencia Forense, este sistema permitirá a peritos subir evidencia y documentar digitalmente el proceso de los casos investigados, el
-sistema deberá permitir:
+Best of Best:
 
-- Registro de Perito
-- Verificación Correo de Perito
+- Registro de Partner
+- Verificación Correo de Partner
 - 2FA al momento de Ingresar, para ello se recomienda utilizar la APP Google Authenticator
-- Ingreso de evidecia digital.
-- Notificaciones del proceso documental en casillas de correos del laboratorio y otros.
-- Encriptaciones de SSL, Storage, Upload File, entre otros.
+- Ingreso de Espacio.
 - Cerrar Sesión, recuperar clave, perfil personalizado, entre otros elementos.
 
 
 ## Colaboración
 
-Por medio de netcode.cl, Licrim facilita el proceso de digitalización documental forense.
+Por medio de CTO Uroff - Mauricio Durán, UROFF facilita el proceso de digitalización en ingreso de Partner.
 
 ## Contribución
 
-Desarrollado por: Mauricio Durán Torres.
+Desarrollado por: Uroff.net - CTO - Mauricio Durán Torres.
 
 ## Implementación
 
@@ -43,4 +40,6 @@ Desarrollado por: Mauricio Durán Torres.
 9) php artisan serve
 10) php artisan storage:link
 11) Dejar imagenes dentro de storage para logos y multimedia.
+
+
 "# uroff_backend" 
